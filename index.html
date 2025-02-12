@@ -20,8 +20,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>tea house</h1>
+<body class="max-w-screen-xl mx-auto px-20">
+
+    <!-- banner section -->
+    <!-- <i class="fa-solid fa-square-arrow-up-right"></i> -->
+    <!-- bg-linear-to-r from-[#FF8938] to-[#FF0000] -->
+    <section class="banner mt-8 mb-2  lg:flex gap-4 justify-around">
+        <!-- text area  -->
+        <div class="text-area">
+            <h2 class=" text-4xl text-center lg:text-left lg:text-7xl font-bold text-[#1C1C1C]">It's good <br>tea time
+                at The <br>Tea House</h2>
+            <p class="text-[#777777] mt-8  w-3/4 mx-auto lg:w-full">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Unde, inventore.</p>
+
+            <button
+                class=" p-2 lg:p-4 my-8 bg-red-500 text-xl w-full lg:w-2/4  rounded rounded-lg text-white font-bold  ">Explore
+                more <i class="fa-solid fa-arrow-right -rotate-45"></i> </button>
+        </div>
+
+        <!-- image area  -->
+        <div class="image-area relative  ">
+            <img src="images/banner.png" alt="">
+            <div class="ratting absolute bg-white flex items-center justify-between w-3/5 lg:w-1/4 border-2 p-2 rounded-xl shadow-lg  bottom-0 left-0 lg:bottom-10 lg:left-20">
+                <div class="icon"><i class="fa-solid fa-star text-orange-500 text-2xl "></i></div>
+                <div class="content">
+                    <h6 class="text-[#1C1C1C] font-bold text-lg">5.00</h6>
+                    <p class="text-[#777] text-sm">trust pilot ratting</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
